@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+nav {
+    background-color: black;
+    
+}
+ul{
+    display: flex;
+    gap: 50px;
+    padding:20px;
+    justify-content: flex-end;
+    
+}
+li {
+    list-style-type: none;
+ 
+}
+a.nav {
+    text-decoration: none;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    
+}
+a.nav:hover {
+    color: cadetblue;
+}
+/*Flex*/
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px;
+}
+
+.first {
+    background-color: hsl(31, 77%, 52%);
+    padding: 20 45px;
+    margin: 40 0px;
+    width: 23%;
+   
+}
+.second {
+    background-color: hsl(184, 100%, 22%);
+    padding: 20px 45px;
+    margin: 40 0px;
+    width: 23%;
+}
+.third {
+    background-color: hsl(179, 100%, 13%);
+    padding: 20 45px;
+    margin: 40 0px;
+    width: 23%;
+   
+}
+button a:hover {
+    border: 1px solid hsl(0, 0%, 95%) ;
+    background-color: transparent;
+    color: hsla(0, 0%, 100%, 0.75);
+}
+button {
+    position: relative;
+    border-radius: 20px;
+    border: 1px white solid;
+    padding: 10px 20px;
+    margin: 40 0;
+    background-color: none ;
+    outline: none;
+    border: none;
+    color: black ;
+    mix-blend-mode: screen;
+    font-size: 15px;
+    font-weight: bold;
+}
+button::before {
+    position: absolute;
+    background-color: hsl(0, 0%, 95%);
+    mix-blend-mode: color-burn;
+}
+button a {
+    text-decoration: none;
+}
+button:hover{
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border-radius: 20px;
+    border: 1px solid hsl(0, 0%, 95%);
+    color: (0, 0%, 100%, 0.75);
+}
+ button a:hover {
+    border: none;
+}
+
+.text {
+    line-height: 30px;
+    color: hsla(0, 0%, 100%, 0.75);
+    margin-top: 20px;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: Lexend Deca;
+}
+h1 {
+    color: hsl(0, 0%, 95%);
+    margin: 40 0px;
+    font-weight: 700;
+    font-family: Big Shoulders Display;
+}
+img {
+    margin-top: 20px;
+}
